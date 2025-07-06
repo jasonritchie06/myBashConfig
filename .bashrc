@@ -577,5 +577,3 @@ export PATH=$PATH:"$HOME/.local/bin:$HOME/.cargo/bin:/var/lib/flatpak/exports/bi
 
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
-
-. "$HOME/.local/share/krita/ai_diffusion/server/uv/env"
