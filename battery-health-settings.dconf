@@ -1,0 +1,14 @@
+[org/gnome/shell/extensions/Battery-Health-Charging]
+charging-mode='bal'
+current-bal-end-threshold=80
+current-ful-end-threshold=100
+current-max-end-threshold=60
+default-threshold=false
+device-type=2
+dummy-apply-threshold=false
+ful-end-threshold=100
+icon-style-type=0
+indicator-position-max=3
+polkit-status='installed'
+show-battery-panel2=false
+show-system-indicator=false
