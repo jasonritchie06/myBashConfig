@@ -244,6 +244,10 @@ sudo -u ${ACTUAL_USER} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID
 sudo -u ${ACTUAL_USER} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" gsettings set org.gnome.desktop.screensaver lock-delay 30
 sudo -u ${ACTUAL_USER} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" gsettings set org.gnome.mutter attach-modal-dialogs true
 sudo -u ${ACTUAL_USER} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" gsettings set org.gnome.shell development-tools true
+sudo -u ${ACTUAL_USER} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" gsettings set org.gnome.desktop.interface clock-format '24h'
+sudo -u ${ACTUAL_USER} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" gsettings set org.gnome.desktop.interface clock-show-date true
+sudo -u ${ACTUAL_USER} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" gsettings set org.gnome.desktop.interface clock-show-seconds false
+sudo -u ${ACTUAL_USER} DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/${RUSER_UID}/bus" gsettings set org.gnome.desktop.interface clock-show-weekday false
 
 #install development tools
 color_echo "yellow" "Installing development tools..."
