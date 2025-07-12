@@ -144,7 +144,7 @@ style = "bold red"
 [hostname]
 ssh_symbol = "🌐"
 ssh_only = true
-trim_at = "-"
+trim_at = "."
 style = "bg:#434C5E"
 disabled = false
 format = "[$ssh_symbol]($style)[$hostname]($style)"
