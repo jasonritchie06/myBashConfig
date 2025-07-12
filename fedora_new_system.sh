@@ -462,7 +462,8 @@ notification-timeoutchlumskyvaclav.gmail.com.v13.shell-extension.zip
 just-perfection-desktopjust-perfection.v34.shell-extension.zip
 grand-theft-focuszalckos.github.com.v8.shell-extension.zip
 blur-my-shellaunetx.v68.shell-extension.zip
-monitorastraext.github.io.v47.shell-extension.zip
+disable-unredirectexeos.v2.shell-extension.zip
+restarttotiagoporsch.github.io.v8.shell-extension.zip
 "
 
 for EXT in $EXTENSIONS; do
